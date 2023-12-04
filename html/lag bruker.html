@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./javascript/js.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/javascript/js.js"></script>
 </head>
 <body>
-    <h1>logg inn</h1>
+    <h1>opprett bruker</h1>
     <form action="" method="post">
         <label for="epost">epost</label>
         <br>
@@ -16,11 +16,12 @@
         <label for="passord">passord</label>
         <br>
         <input id="passord" type="password"></label>
+        <br>
+        <label for="gjentapassord">gjentapassord</label>
+        <br>
+        <input id="gjentapassord" type="gjentapassord"></label>
+        
     </form>
-    <button onclick="loggin()">logg inn</button>
-    <br>
-    <a href="html/lag bruker.html">ny bruker</a>
-    
-    
+    <button onclick="sendInn()">lag bruker</button>
 </body>
 </html>
